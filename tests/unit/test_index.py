@@ -7,10 +7,10 @@ from scraper import index
 SAMPLE_HTML = """
 <html><body>
 <div class="row">
-  <a class="job_title_link" href="/apply/jobs/details/ABC123?department=ELECTROGRUP">Inginer Ofertare Energetic</a>
+  <a class="job_title_link" href="/apply/jobs/details/ABC123?department=NOVA">Inginer Ofertare Energetic</a>
 </div>
 <div class="row">
-  <a class="job_title_link" href="/apply/jobs/details/DEF456?department=ELECTROGRUP">SCADA Engineer</a>
+  <a class="job_title_link" href="/apply/jobs/details/DEF456?department=NOVA">SCADA Engineer</a>
 </div>
 </body></html>
 """
@@ -18,11 +18,11 @@ SAMPLE_HTML = """
 SAMPLE_TABLE_HTML = """
 <html><body><table>
   <tr>
-    <td><a class="job_title_link" href="/apply/jobs/details/AAA111?department=ELECTROGRUP">Job A</a></td>
+    <td><a class="job_title_link" href="/apply/jobs/details/AAA111?department=NOVA">Job A</a></td>
     <td>Bucuresti, Bucuresti, Romania</td>
   </tr>
   <tr>
-    <td><a class="job_title_link" href="/apply/jobs/details/BBB222?department=ELECTROGRUP">Job B</a></td>
+    <td><a class="job_title_link" href="/apply/jobs/details/BBB222?department=NOVA">Job B</a></td>
     <td>Cluj-Napoca, Cluj, Romania</td>
   </tr>
 </table></body></html>
@@ -87,41 +87,41 @@ def test_parse_api_jobs_empty():
 def test_map_to_job_model_adds_company_and_status():
     raw = {"url": "https://electrogrup.applytojob.com/apply/jobs/details/ABC123",
            "title": "SCADA Engineer", "location": ["Bucuresti"]}
-    index.COMPANY_NAME = "ELECTROGRUP SA"
-    job = index.map_to_job_model(raw, "09256208")
-    assert job["company"] == "ELECTROGRUP SA"
-    assert job["cif"] == "09256208"
+    index.COMPANY_NAME = "NOVA POWER & GAS S.A."
+    job = index.map_to_job_model(raw, "18680651")
+    assert job["company"] == "NOVA POWER & GAS S.A."
+    assert job["cif"] == "18680651"
     assert job["status"] == "scraped"
     assert job["location"] == ["Bucuresti"]
 
 
 def test_transform_jobs_for_solr_keeps_required_fields():
     jobs = [{"url": "https://x/job", "title": "Test Job", "location": ["Cluj-Napoca"],
-             "company": "ELECTROGRUP SA", "cif": "09256208"}]
-    transformed = index.transform_jobs_for_solr({"company": "ELECTROGRUP SA", "jobs": jobs})
+             "company": "NOVA POWER & GAS S.A.", "cif": "18680651"}]
+    transformed = index.transform_jobs_for_solr({"company": "NOVA POWER & GAS S.A.", "jobs": jobs})
     assert len(transformed["jobs"]) == 1
     t = transformed["jobs"][0]
     assert t["url"]
     assert t["title"]
     assert t["location"] == ["Cluj-Napoca"]
-    assert t["company"] == "ELECTROGRUP SA"
+    assert t["company"] == "NOVA POWER & GAS S.A."
 
 
 def test_transform_workmode_normalized():
     jobs = [{"url": "https://x/1", "title": "Dev", "location": ["Cluj-Napoca"], "workmode": "Remote"}]
-    transformed = index.transform_jobs_for_solr({"company": "ELECTROGRUP SA", "jobs": jobs})
+    transformed = index.transform_jobs_for_solr({"company": "NOVA POWER & GAS S.A.", "jobs": jobs})
     assert transformed["jobs"][0]["workmode"] == "remote"
 
 
 def test_transform_missing_workmode_dropped():
     jobs = [{"url": "https://x/1", "title": "Dev", "location": ["Cluj-Napoca"]}]
-    transformed = index.transform_jobs_for_solr({"company": "ELECTROGRUP SA", "jobs": jobs})
+    transformed = index.transform_jobs_for_solr({"company": "NOVA POWER & GAS S.A.", "jobs": jobs})
     assert "workmode" not in transformed["jobs"][0]
 
 
 def test_generate_jobs_markdown(tmp_path, company_config):
     jobs = [{"url": "https://x/job", "title": "Inginer Ofertare Energetic",
-             "company": "ELECTROGRUP SA", "cif": "09256208",
+             "company": "NOVA POWER & GAS S.A.", "cif": "18680651",
              "location": ["Bucuresti"], "workmode": "on-site"}]
     md = index.generate_jobs_markdown(company_config, jobs)
     assert f"# {company_config['company']}" in md
@@ -146,7 +146,7 @@ def test_main_dry_run_writes_summary(tmp_path, monkeypatch):
     monkeypatch.setattr(index, "delete_job_by_url", lambda url: None)
     monkeypatch.setattr(index, "upsert_company", lambda cfg: None)
     monkeypatch.setattr(index, "validate_and_get_company", lambda: {
-        "company": "ELECTROGRUP SA", "cif": "9256208", "status": "active",
+        "company": "NOVA POWER & GAS S.A.", "cif": "18680651", "status": "active",
         "address": "CLUJ-NAPOCA"})
     monkeypatch.setattr(index, "search_anofm", lambda cif: [])
 

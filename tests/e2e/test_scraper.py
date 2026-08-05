@@ -1,8 +1,9 @@
-"""End-to-end test: scrape the real Electrogrup applytojob board.
+"""End-to-end test: scrape the real NOVA Power & Gas applytojob board.
 
-Skips (rather than fails) when the board is unreachable, so that CI does not
-break on transient network issues. Mirrors the `e2e` convention from the
-Node.js template.
+NOVA Power & Gas belongs to the E-INFRA group, which shares the
+electrogrup.applytojob.com board; this scraper filters to the
+`NOVA Power & Gas` department. Skips (rather than fails) when the board
+is unreachable, so that CI does not break on transient network issues.
 """
 
 import socket
@@ -11,9 +12,9 @@ import pytest
 
 from scraper import index
 
-# Observed: 56 unique jobs for the ELECTROGRUP department (deduplicated by id).
+# Observed: 7 unique jobs for the NOVA Power & Gas department (deduplicated by id).
 # A sane lower bound protects against board restructures without being brittle.
-EXPECTED_MIN_JOBS = 40
+EXPECTED_MIN_JOBS = 3
 
 
 def _board_reachable():
@@ -35,3 +36,4 @@ def test_scrape_real_board():
         assert job["title"]
     urls = {j["url"] for j in jobs}
     assert len(urls) == len(jobs), "duplicate job URLs found"
+    assert "NOVA" in index.DEPARTMENT, "scraper should target the NOVA Power & Gas department"

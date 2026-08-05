@@ -1,5 +1,6 @@
 {
   "apiBase": "https://electrogrup.applytojob.com",
   "apiPath": "/apply/jobs",
-  "department": "NOVA Power & Gas"
+  "department": "NOVA Power & Gas",
+  "jobDetailsPrefix": "https://electrogrup.applytojob.com/apply/jobs/details/"
 }

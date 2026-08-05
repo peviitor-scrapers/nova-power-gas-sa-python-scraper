@@ -1,1 +1,1 @@
-"""Electrogrup Python scraper package."""
+"""NOVA Power & Gas Python scraper package."""

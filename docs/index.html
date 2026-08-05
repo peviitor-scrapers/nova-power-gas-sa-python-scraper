@@ -201,19 +201,19 @@
       <img src="https://peviitor.ro/assets/logo-DV2JQkir.svg" alt="peviitor" class="logo-img">
     </a>
     <h1 data-i18n="pageTitle">Locuri de muncă</h1>
-    <p data-i18n="subtitle">Scraper automat pentru locurile de muncă ELECTROGRUP</p>
+    <p data-i18n="subtitle">Scraper automat pentru locurile de muncă NOVA Power & Gas</p>
 
     <div style="margin: 15px 0; display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">
-      <a href="https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
-        <img src="https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml/badge.svg" alt="Scraper Status">
+      <a href="https://github.com/peviitor-scrapers/nova-power-gas-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
+        <img src="https://github.com/peviitor-scrapers/nova-power-gas-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml/badge.svg" alt="Scraper Status">
       </a>
-      <a href="https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/actions/workflows/automation-testing.yml" target="_blank">
-        <img src="https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/actions/workflows/automation-testing.yml/badge.svg" alt="Tests Status">
+      <a href="https://github.com/peviitor-scrapers/nova-power-gas-sa-python-scraper/actions/workflows/automation-testing.yml" target="_blank">
+        <img src="https://github.com/peviitor-scrapers/nova-power-gas-sa-python-scraper/actions/workflows/automation-testing.yml/badge.svg" alt="Tests Status">
       </a>
-      <a href="https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/blob/main/CHANGELOG.md" target="_blank">
+      <a href="https://github.com/peviitor-scrapers/nova-power-gas-sa-python-scraper/blob/main/CHANGELOG.md" target="_blank">
         <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Version">
       </a>
-      <a href="https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/blob/main/LICENSE" target="_blank">
+      <a href="https://github.com/peviitor-scrapers/nova-power-gas-sa-python-scraper/blob/main/LICENSE" target="_blank">
         <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
       </a>
       <a href="https://www.python.org/" target="_blank">
@@ -250,7 +250,7 @@
     <div class="card-header" data-i18n="aboutTitle">Despre acest scraper</div>
     <div class="card-body">
       <ul class="features-list" data-i18n="featuresList">
-        <li data-i18n="f1">Extrage job-uri de pe board-ul applytojob ELECTROGRUP</li>
+        <li data-i18n="f1">Extrage job-uri de pe board-ul applytojob NOVA Power & Gas</li>
         <li data-i18n="f2">Parsează cu BeautifulSoup</li>
         <li data-i18n="f3">Validează compania via ANAF</li>
         <li data-i18n="f4">Verifică și elimină job-uri expirate</li>
@@ -267,7 +267,7 @@
   </div>
 
   <div class="btn-wrapper" style="display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap;">
-    <a class="btn" href="https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
+    <a class="btn" href="https://github.com/peviitor-scrapers/nova-power-gas-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
       <span>&#9654;</span> <span data-i18n="runBtn">Rulează Scraper</span>
     </a>
     <a class="btn" href="test-results/" style="background:#7d6b5a;">
@@ -287,7 +287,7 @@
   </div>
 
   <footer>
-    <a href="https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper" target="_blank">GitHub</a> &middot;
+    <a href="https://github.com/peviitor-scrapers/nova-power-gas-sa-python-scraper" target="_blank">GitHub</a> &middot;
     <a href="https://peviitor.ro/" target="_blank">peviitor.ro</a>
   </footer>
 
@@ -295,8 +295,8 @@
 
 <script>
 // Loaded from docs/company.json (regenerated on every scrape)
-let COMPANY = "ELECTROGRUP SA";
-let COMPANY_CIF = "9256208";
+let COMPANY = "NOVA POWER & GAS S.A.";
+let COMPANY_CIF = "18680651";
 
 async function loadCompanyConfig() {
   try {
@@ -312,12 +312,12 @@ async function loadCompanyConfig() {
 
 const i18n = {
   en: {
-    pageTitle: "ELECTROGRUP Jobs — peviitor.ro",
-    subtitle: "Automated scraper for ELECTROGRUP jobs",
+    pageTitle: "NOVA Power & Gas Jobs — peviitor.ro",
+    subtitle: "Automated scraper for NOVA Power & Gas jobs",
     jobsLabel: "Jobs",
     verifiedLabel: "Verified",
     aboutTitle: "About this scraper",
-    f1: "Extracts jobs from the ELECTROGRUP applytojob board",
+    f1: "Extracts jobs from the NOVA Power & Gas applytojob board",
     f2: "Parses with BeautifulSoup",
     f3: "Validates company via ANAF",
     f4: "Checks and removes expired jobs",
@@ -328,14 +328,22 @@ const i18n = {
     jobsEmpty: "Loading...",
     jobsMd: "Jobs MD",
     testResults: "Test Results",
+    cif: "CIF",
+    brand: "Brand",
+    status: "Status",
+    cities: "Cities",
+    website: "Website",
+    career: "Career",
+    lastScrape: "Last scrape",
+    activeStatus: "active",
   },
   ro: {
     pageTitle: "Locuri de muncă — peviitor.ro",
-    subtitle: "Scraper automat pentru locurile de muncă ELECTROGRUP",
+    subtitle: "Scraper automat pentru locurile de muncă NOVA Power & Gas",
     jobsLabel: "Locuri de muncă",
     verifiedLabel: "Verificate",
     aboutTitle: "Despre acest scraper",
-    f1: "Extrage locuri de muncă de pe board-ul applytojob ELECTROGRUP",
+    f1: "Extrage locuri de muncă de pe board-ul applytojob NOVA Power & Gas",
     f2: "Parsează cu BeautifulSoup",
     f3: "Validează compania via ANAF",
     f4: "Verifică și elimină locuri de muncă expirate",
@@ -346,6 +354,14 @@ const i18n = {
     jobsEmpty: "Se încarcă...",
     jobsMd: "Jobs MD",
     testResults: "Rezultate Teste",
+    cif: "CIF",
+    brand: "Brand",
+    status: "Status",
+    cities: "Orașe",
+    website: "Website",
+    career: "Career",
+    lastScrape: "Ultimul scrape",
+    activeStatus: "activ",
   }
 };
 
@@ -389,15 +405,18 @@ async function loadStats() {
     const cData = await cRes.json();
     const comp = cData.company;
     if (comp) {
+      const lang = document.documentElement.lang || "ro";
+      const t = i18n[lang] || i18n.ro;
+      const statusValue = comp.status === "activ" ? t.activeStatus : comp.status;
       const grid = document.getElementById("companyDetails");
       grid.innerHTML = `
-        <div class="company-item"><strong>CIF:</strong> ${comp.id}</div>
-        <div class="company-item"><strong>Brand:</strong> ${comp.brand}</div>
-        <div class="company-item"><strong>Status:</strong> ${comp.status}</div>
-        <div class="company-item"><strong>Orașe:</strong> ${(comp.location || []).join(", ") || "—"}</div>
-        <div class="company-item"><strong>Website:</strong> <a href="${(comp.website || [])[0] || "#"}" target="_blank">${(comp.website || [])[0] || "—"}</a></div>
-        <div class="company-item"><strong>Career:</strong> <a href="${(comp.career || [])[0] || "#"}" target="_blank">${(comp.career || [])[0] || "—"}</a></div>
-        <div class="company-item"><strong>Ultimul scrape:</strong> ${comp.lastScraped || "—"}</div>
+        <div class="company-item"><strong>${t.cif}:</strong> ${comp.id}</div>
+        <div class="company-item"><strong>${t.brand}:</strong> ${comp.brand}</div>
+        <div class="company-item"><strong>${t.status}:</strong> ${statusValue}</div>
+        <div class="company-item"><strong>${t.cities}:</strong> ${(comp.location || []).join(", ") || "—"}</div>
+        <div class="company-item"><strong>${t.website}:</strong> <a href="${(comp.website || [])[0] || "#"}" target="_blank">${(comp.website || [])[0] || "—"}</a></div>
+        <div class="company-item"><strong>${t.career}:</strong> <a href="${(comp.career || [])[0] || "#"}" target="_blank">${(comp.career || [])[0] || "—"}</a></div>
+        <div class="company-item"><strong>${t.lastScrape}:</strong> ${comp.lastScraped || "—"}</div>
       `;
 
       window.__companyName = comp.company || COMPANY;
@@ -408,11 +427,21 @@ async function loadStats() {
   }
 
   try {
-    const vRes = await fetch(`https://api.peviitor.ro/v1/search/?company=${encodeURIComponent(COMPANY)}&status=verified&page=1`, {
-      headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/" }
-    });
-    const vData = await vRes.json();
-    document.getElementById("verifiedCount").textContent = vData.response.numFound;
+    let verified = 0;
+    let vPage = 1;
+    while (true) {
+      const vRes = await fetch(`https://api.peviitor.ro/v1/search/?company=${encodeURIComponent(COMPANY)}&page=${vPage}`, {
+        headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/" }
+      });
+      const vData = await vRes.json();
+      const vDocs = vData.response?.docs || [];
+      if (vDocs.length === 0) break;
+      vDocs.forEach((doc) => {
+        if (doc.cif === COMPANY_CIF && doc.status !== "expired") verified++;
+      });
+      vPage++;
+    }
+    document.getElementById("verifiedCount").textContent = verified;
   } catch { document.getElementById("verifiedCount").textContent = "?"; }
 
   const now = new Date();
