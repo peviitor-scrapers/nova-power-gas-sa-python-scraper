@@ -428,19 +428,14 @@ async function loadStats() {
 
   try {
     let verified = 0;
-    let vPage = 1;
-    while (true) {
-      const vRes = await fetch(`https://api.peviitor.ro/v1/search/?company=${encodeURIComponent(COMPANY)}&page=${vPage}`, {
-        headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/" }
-      });
-      const vData = await vRes.json();
-      const vDocs = vData.response?.docs || [];
-      if (vDocs.length === 0) break;
-      vDocs.forEach((doc) => {
-        if (doc.cif === COMPANY_CIF && doc.status !== "expired") verified++;
-      });
-      vPage++;
-    }
+    const vRes = await fetch(`https://api.peviitor.ro/v1/scraper/jobs/?cif=${COMPANY_CIF}&rows=500`, {
+      headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/" }
+    });
+    const vData = await vRes.json();
+    const vJobs = Array.isArray(vData.data) ? vData.data : [];
+    vJobs.forEach((job) => {
+      if (job.status !== "expired") verified++;
+    });
     document.getElementById("verifiedCount").textContent = verified;
   } catch { document.getElementById("verifiedCount").textContent = "?"; }
 
@@ -452,21 +447,16 @@ async function loadStats() {
     const list = document.getElementById("jobsList");
     const empty = document.getElementById("jobsEmpty");
     list.innerHTML = "";
-    let page = 1;
     let ourCount = 0;
-    let hasMore = true;
 
-    while (hasMore) {
-      const res = await fetch(`https://api.peviitor.ro/v1/search/?company=${encodeURIComponent(COMPANY)}&page=${page}`, {
-        headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/" }
-      });
-      const data = await res.json();
-      const docs = data.response?.docs || [];
-      if (docs.length === 0) { hasMore = false; break; }
+    const res = await fetch(`https://api.peviitor.ro/v1/scraper/jobs/?cif=${COMPANY_CIF}&rows=500`, {
+      headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/" }
+    });
+    const data = await res.json();
+    const jobs = Array.isArray(data.data) ? data.data : [];
 
-      docs.forEach((job, idx) => {
-        if (job.cif !== COMPANY_CIF) return;
-        ourCount++;
+    jobs.forEach((job, idx) => {
+      ourCount++;
         const div = document.createElement("div");
         div.className = "job-item";
         const loc = Array.isArray(job.location) ? job.location.join(", ") : "";
@@ -481,8 +471,6 @@ async function loadStats() {
         `;
         list.appendChild(div);
       });
-      page++;
-    }
 
     document.getElementById("jobsCount").textContent = ourCount;
     if (ourCount === 0) {
