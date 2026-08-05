@@ -10,7 +10,7 @@
 | Career | https://vreaulanova.ro/posturi-disponibile |
 | LastScraped | 2026-08-05 |
 
-## Jobs (3)
+## Jobs (11)
 
 ### Automatist de Proces
 
@@ -30,5 +30,53 @@
 - **Location**: Bucuresti
 - **Status**: scraped
 
+### Asistent Call Center
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/bdkFXWy11l](https://electrogrup.applytojob.com/apply/jobs/details/bdkFXWy11l)
+- **Location**: Cluj-Napoca
+- **Status**: scraped
+
+### Dispecer Energetic de Centrala
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/KjBaEpdrHd](https://electrogrup.applytojob.com/apply/jobs/details/KjBaEpdrHd)
+- **Location**: Campia Turzii
+- **Status**: scraped
+
+### Inginer Electric Senior CCGT
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/85jKgFyE6t](https://electrogrup.applytojob.com/apply/jobs/details/85jKgFyE6t)
+- **Location**: Cluj-Napoca
+- **Status**: scraped
+
+### Inginer Proces & Operare Senior CCGT
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/DCPHgPHD5V](https://electrogrup.applytojob.com/apply/jobs/details/DCPHgPHD5V)
+- **Location**: Cluj-Napoca
+- **Status**: scraped
+
+### Inspector SSM
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/rwVWUk3QZK](https://electrogrup.applytojob.com/apply/jobs/details/rwVWUk3QZK)
+- **Location**: Campia Turzii
+- **Status**: scraped
+
+### Key Account Manager
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/5bje5UyXDx](https://electrogrup.applytojob.com/apply/jobs/details/5bje5UyXDx)
+- **Location**: Timisoara
+- **Status**: scraped
+
+### Specialist Prognoza Energie Electrica
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/TNJEnRj0ng](https://electrogrup.applytojob.com/apply/jobs/details/TNJEnRj0ng)
+- **Location**: Bucuresti
+- **Status**: scraped
+
+### Specialist Trading Gaze Naturale
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/8upoeeGzy3](https://electrogrup.applytojob.com/apply/jobs/details/8upoeeGzy3)
+- **Location**: Bucuresti
+- **Status**: scraped
+
 ---
-_Generated at 2026-08-05T06:07:07Z_
+_Generated at 2026-08-05T06:27:06Z_
