@@ -7,7 +7,7 @@
 | CIF | 18680651 |
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
-| Career | https://vreaulanova.ro/cariere |
+| Career | https://vreaulanova.ro/posturi-disponibile |
 | LastScraped | 2026-08-05 |
 
 ## Jobs (3)

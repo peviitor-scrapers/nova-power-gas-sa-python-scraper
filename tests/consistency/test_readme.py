@@ -54,7 +54,7 @@ def test_readme_content_is_english():
 
 def test_readme_company_link_points_to_official_careers():
     readme = _readme()
-    assert "https://vreaulanova.ro/cariere" in readme, "README.md must link the NOVA official careers page"
+    assert "https://vreaulanova.ro/posturi-disponibile" in readme, "README.md must link the NOVA official careers page"
     assert "electrogrup.applytojob.com" not in readme, "README.md must not link the electrogrup applytojob board"
 
 

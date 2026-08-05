@@ -10,7 +10,7 @@
     "http://novapg.ro/"
   ],
   "career": [
-    "https://vreaulanova.ro/cariere"
+    "https://vreaulanova.ro/posturi-disponibile"
   ],
   "scraperFile": "https://github.com/peviitor-scrapers/nova-power-gas-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml"
 }

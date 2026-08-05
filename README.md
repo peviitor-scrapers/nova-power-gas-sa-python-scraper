@@ -9,7 +9,7 @@
 
 # job_seeker_ro_spider — NOVA Power & Gas Scraper
 
-**job_seeker_ro_spider** — a scraper for NOVA Power & Gas jobs in Romania. It collects the announcements published by the [NOVA Power & Gas](https://vreaulanova.ro/cariere/) department on the group's applytojob board and publishes them to [peviitor.ro](https://peviitor.ro) through the Peviitor API.
+**job_seeker_ro_spider** — a scraper for NOVA Power & Gas jobs in Romania. It collects the announcements published by the [NOVA Power & Gas](https://vreaulanova.ro/posturi-disponibile) department on the group's applytojob board and publishes them to [peviitor.ro](https://peviitor.ro) through the Peviitor API.
 
 > **🌱 Derived scraper.** This repository is derived from [electrogrup-sa-python-scraper](https://github.com/peviitor-scrapers/electrogrup-sa-python-scraper), the reference implementation for Python scrapers in the peviitor.ro ecosystem.
 
@@ -19,7 +19,7 @@ The project automates the daily collection of NOVA Power & Gas jobs in Romania, 
 
 ## Features
 
-- Extracts jobs from the NOVA Power & Gas group applytojob board (`?department=NOVA Power & Gas` filter)
+- Extracts jobs from the NOVA Power & Gas group applytojob board (`?department=Nova` filter — matches both `NOVA Power & Gas` and `NOVA Power&Gas` headings)
 - Additional ANOFM jobs via CIF
 - Validates the company via ANAF (CUI, active/inactive status, full address) with CUIScan fallback
 - **ANAF cache** — does not hit the APIs on every scrape

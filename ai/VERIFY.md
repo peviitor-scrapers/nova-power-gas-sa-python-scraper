@@ -24,7 +24,7 @@ Expect: `denumire == "NOVA POWER & GAS S.A."`, `cif == "18680651"`.
 python3 -m pytest tests/e2e
 ```
 
-Expect: `>= 1` jobs scraped, unique URLs, titles present, NOVA Power & Gas department filter.
+Expect: `>= 1` jobs scraped, unique URLs, titles present, Nova department filter.
 
 ## Live — peviitor SOLR
 

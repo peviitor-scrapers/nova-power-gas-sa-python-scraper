@@ -3,10 +3,10 @@
 ## Project Purpose
 
 This scraper extracts job listings for **NOVA POWER & GAS S.A.** (CIF `18680651`)
-from the group's applytojob board, filtered by the `NOVA Power & Gas` department,
+from the group's applytojob board, filtered by the `Nova` department,
 and publishes them to peviitor.ro via the v1 API (`https://api.peviitor.ro/v1`).
 
-Target: `https://electrogrup.applytojob.com/apply/jobs/?department=NOVA Power & Gas`
+Target: `https://electrogrup.applytojob.com/apply/jobs/?department=Nova`
 
 ## Model Schemas
 
@@ -105,7 +105,7 @@ company.py / anaf.py (validate company)
     ├── anaf_cache.json ──► fallback if APIs fail
     │
     ▼ (if active)
-scrape applytojob board (?department=NOVA Power & Gas)
+scrape applytojob board (?department=Nova)
     │
     ▼
 transform_jobs_for_solr()
@@ -145,7 +145,7 @@ See `ai/files.md` for the full file map. Key files:
 
 ## API Endpoints
 
-- **Applytojob board**: `https://electrogrup.applytojob.com/apply/jobs/?department=NOVA Power & Gas` — listing HTML
+- **Applytojob board**: `https://electrogrup.applytojob.com/apply/jobs/?department=Nova` — listing HTML
 - **ANOFM search**: `https://mediere.anofm.ro/api/entity/vw_public_job_posting` — POST by `employer_tax_code`
 - **CUIScan**: `https://cuiscan.ro/api.php?action=company&cui=CIF` — company details fallback
 - **DemoANAF**: `https://demoanaf.ro/api/company/:cui` — company details fallback

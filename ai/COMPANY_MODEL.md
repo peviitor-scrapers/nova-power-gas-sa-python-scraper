@@ -45,7 +45,7 @@ config when available.
   "status": "activ",
   "location": ["Cluj-Napoca"],
   "website": ["http://novapg.ro/"],
-  "career": ["https://vreaulanova.ro/cariere"],
+  "career": ["https://vreaulanova.ro/posturi-disponibile"],
   "scraperFile": "https://github.com/peviitor-scrapers/nova-power-gas-sa-python-scraper/actions/workflows/job-seeker-ro-spider.yml"
 }
 ```

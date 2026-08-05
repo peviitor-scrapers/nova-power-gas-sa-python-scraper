@@ -12,6 +12,7 @@ import pathlib
 import re
 import sys
 import time
+from urllib.parse import quote
 
 import requests
 from bs4 import BeautifulSoup
@@ -41,7 +42,7 @@ JOB_DETAILS_PREFIX = f"{API_BASE}/apply/jobs/details/"
 
 def build_listing_url():
     """Builds the applytojob listing URL with the company department filter."""
-    return f"{API_BASE}{API_PATH}/?department={DEPARTMENT}"
+    return f"{API_BASE}{API_PATH}/?department={quote(DEPARTMENT)}"
 
 
 def build_job_url(job_id):

@@ -33,7 +33,7 @@ python3 -m scraper.validate_jobs 18680651 --mode content --delete
 If `parse_api_jobs` returns 0 or few jobs, inspect the applytojob page:
 
 ```bash
-curl -s "https://electrogrup.applytojob.com/apply/jobs/?department=NOVA Power & Gas"
+curl -s "https://electrogrup.applytojob.com/apply/jobs/?department=Nova"
 ```
 
 Update the parser selectors in `scraper/index.py` (`a.job_title_link`,

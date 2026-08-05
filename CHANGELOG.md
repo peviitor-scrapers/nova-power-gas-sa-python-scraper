@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.1] - 2026-08-05
+
+### Changed
+- Department filter switched from `?department=NOVA Power & Gas` (3 jobs, one heading) to `?department=Nova`, which matches both board headings (`NOVA Power & Gas` and `NOVA Power&Gas`) and scrapes all 11 open NOVA jobs.
+- Careers URL updated from `https://vreaulanova.ro/cariere` (404) to `https://vreaulanova.ro/posturi-disponibile`.
+- Listing URL now URL-encodes the department parameter (`build_listing_url`).
+
 ## [1.0.0] - 2026-08-03
 
 ### Added
