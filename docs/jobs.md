@@ -8,7 +8,7 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-08-13 |
+| LastScraped | 2026-08-14 |
 
 ## Jobs (11)
 
@@ -62,7 +62,7 @@
 
 ### Key Account Manager
 
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/5bje5UyXDx](https://electrogrup.applytojob.com/apply/jobs/details/5bje5UyXDx)
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/yvPWwvDTEV](https://electrogrup.applytojob.com/apply/jobs/details/yvPWwvDTEV)
 - **Location**: Timisoara
 - **Status**: scraped
 
@@ -79,4 +79,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-08-13T07:05:39Z_
+_Generated at 2026-08-14T07:01:49Z_
