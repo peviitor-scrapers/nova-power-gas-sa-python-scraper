@@ -38,7 +38,7 @@
 
 ### Dispecer Energetic de Centrala
 
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/KjBaEpdrHd](https://electrogrup.applytojob.com/apply/jobs/details/KjBaEpdrHd)
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/0GD8eDAzmI](https://electrogrup.applytojob.com/apply/jobs/details/0GD8eDAzmI)
 - **Location**: Campia Turzii
 - **Status**: scraped
 
@@ -79,4 +79,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-08-20T06:21:35Z_
+_Generated at 2026-08-20T11:08:57Z_
