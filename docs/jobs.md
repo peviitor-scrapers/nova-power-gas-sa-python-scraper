@@ -8,9 +8,9 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-08-26 |
+| LastScraped | 2026-08-27 |
 
-## Jobs (11)
+## Jobs (9)
 
 ### Automatist de Proces
 
@@ -22,12 +22,6 @@
 
 - **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/alTvSpD2v7](https://electrogrup.applytojob.com/apply/jobs/details/alTvSpD2v7)
 - **Location**: Campia Turzii
-- **Status**: scraped
-
-### Specialist Vanzari BRM
-
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/RkQYBrxJZG](https://electrogrup.applytojob.com/apply/jobs/details/RkQYBrxJZG)
-- **Location**: Bucuresti
 - **Status**: scraped
 
 ### Asistent Call Center
@@ -45,12 +39,6 @@
 ### Inginer Electric Senior CCGT
 
 - **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/85jKgFyE6t](https://electrogrup.applytojob.com/apply/jobs/details/85jKgFyE6t)
-- **Location**: Cluj-Napoca
-- **Status**: scraped
-
-### Inginer Proces & Operare Senior CCGT
-
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/DCPHgPHD5V](https://electrogrup.applytojob.com/apply/jobs/details/DCPHgPHD5V)
 - **Location**: Cluj-Napoca
 - **Status**: scraped
 
@@ -79,4 +67,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-08-26T06:23:36Z_
+_Generated at 2026-08-27T16:52:54Z_
