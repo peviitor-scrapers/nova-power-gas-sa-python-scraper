@@ -8,19 +8,13 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-09-24 |
+| LastScraped | 2026-09-25 |
 
-## Jobs (8)
+## Jobs (7)
 
 ### Automatist de Proces
 
 - **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/1Ou47QQdH0](https://electrogrup.applytojob.com/apply/jobs/details/1Ou47QQdH0)
-- **Location**: Campia Turzii
-- **Status**: scraped
-
-### Specialist Retele IT
-
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/alTvSpD2v7](https://electrogrup.applytojob.com/apply/jobs/details/alTvSpD2v7)
 - **Location**: Campia Turzii
 - **Status**: scraped
 
@@ -61,4 +55,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-09-24T10:33:34Z_
+_Generated at 2026-09-25T10:37:05Z_
