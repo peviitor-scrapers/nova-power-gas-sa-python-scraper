@@ -8,7 +8,7 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-09-28 |
+| LastScraped | 2026-09-29 |
 
 ## Jobs (7)
 
@@ -30,16 +30,16 @@
 - **Location**: Cluj-Napoca
 - **Status**: scraped
 
-### Inspector SSM
-
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/rwVWUk3QZK](https://electrogrup.applytojob.com/apply/jobs/details/rwVWUk3QZK)
-- **Location**: Campia Turzii
-- **Status**: scraped
-
 ### Key Account Manager
 
 - **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/yvPWwvDTEV](https://electrogrup.applytojob.com/apply/jobs/details/yvPWwvDTEV)
 - **Location**: Timisoara
+- **Status**: scraped
+
+### Key Account Manager | NOVA Power & Gas
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/NAzCASxsgF](https://electrogrup.applytojob.com/apply/jobs/details/NAzCASxsgF)
+- **Location**: TIMISOARA
 - **Status**: scraped
 
 ### Specialist Prognoza Energie Electrica
@@ -55,4 +55,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-09-28T12:03:59Z_
+_Generated at 2026-09-29T11:37:52Z_
