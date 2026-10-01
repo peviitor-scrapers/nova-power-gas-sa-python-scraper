@@ -8,13 +8,13 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-09-30 |
+| LastScraped | 2026-10-01 |
 
-## Jobs (7)
+## Jobs (6)
 
 ### Automatist de Proces
 
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/1Ou47QQdH0](https://electrogrup.applytojob.com/apply/jobs/details/1Ou47QQdH0)
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/i0rSAnwnMS](https://electrogrup.applytojob.com/apply/jobs/details/i0rSAnwnMS)
 - **Location**: Campia Turzii
 - **Status**: scraped
 
@@ -28,12 +28,6 @@
 
 - **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/85jKgFyE6t](https://electrogrup.applytojob.com/apply/jobs/details/85jKgFyE6t)
 - **Location**: Cluj-Napoca
-- **Status**: scraped
-
-### Key Account Manager
-
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/yvPWwvDTEV](https://electrogrup.applytojob.com/apply/jobs/details/yvPWwvDTEV)
-- **Location**: Timisoara
 - **Status**: scraped
 
 ### Key Account Manager | NOVA Power & Gas
@@ -55,4 +49,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-09-30T11:25:28Z_
+_Generated at 2026-10-01T11:52:41Z_
