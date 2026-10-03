@@ -8,7 +8,7 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-10-02 |
+| LastScraped | 2026-10-03 |
 
 ## Jobs (6)
 
@@ -20,7 +20,7 @@
 
 ### Dispecer Energetic de Centrala
 
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/0GD8eDAzmI](https://electrogrup.applytojob.com/apply/jobs/details/0GD8eDAzmI)
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/war0SBYryL](https://electrogrup.applytojob.com/apply/jobs/details/war0SBYryL)
 - **Location**: Campia Turzii
 - **Status**: scraped
 
@@ -49,4 +49,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-10-02T11:25:01Z_
+_Generated at 2026-10-03T10:41:46Z_
