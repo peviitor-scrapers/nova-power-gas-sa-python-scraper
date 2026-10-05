@@ -8,7 +8,7 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-10-04 |
+| LastScraped | 2026-10-05 |
 
 ## Jobs (6)
 
@@ -26,7 +26,7 @@
 
 ### Inginer Electric Senior CCGT
 
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/85jKgFyE6t](https://electrogrup.applytojob.com/apply/jobs/details/85jKgFyE6t)
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/VUIdsNl9yh](https://electrogrup.applytojob.com/apply/jobs/details/VUIdsNl9yh)
 - **Location**: Cluj-Napoca
 - **Status**: scraped
 
@@ -49,4 +49,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-10-04T11:22:21Z_
+_Generated at 2026-10-05T12:44:49Z_
