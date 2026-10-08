@@ -8,14 +8,20 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-10-07 |
+| LastScraped | 2026-10-08 |
 
-## Jobs (6)
+## Jobs (7)
 
 ### Automatist de Proces
 
 - **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/i0rSAnwnMS](https://electrogrup.applytojob.com/apply/jobs/details/i0rSAnwnMS)
 - **Location**: Campia Turzii
+- **Status**: scraped
+
+### Specialist Reglementari
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/2p8tjpxVCo](https://electrogrup.applytojob.com/apply/jobs/details/2p8tjpxVCo)
+- **Location**: Bucuresti
 - **Status**: scraped
 
 ### Dispecer Energetic de Centrala
@@ -49,4 +55,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-10-07T12:06:52Z_
+_Generated at 2026-10-08T12:17:11Z_
