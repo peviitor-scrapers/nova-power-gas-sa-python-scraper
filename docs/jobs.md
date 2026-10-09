@@ -8,7 +8,7 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-10-08 |
+| LastScraped | 2026-10-09 |
 
 ## Jobs (7)
 
@@ -50,9 +50,9 @@
 
 ### Specialist Trading Gaze Naturale
 
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/s0Yfx7Lo5g](https://electrogrup.applytojob.com/apply/jobs/details/s0Yfx7Lo5g)
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/f9kMY572pl](https://electrogrup.applytojob.com/apply/jobs/details/f9kMY572pl)
 - **Location**: Bucuresti
 - **Status**: scraped
 
 ---
-_Generated at 2026-10-08T12:17:11Z_
+_Generated at 2026-10-09T12:08:22Z_
