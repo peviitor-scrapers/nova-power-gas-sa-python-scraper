@@ -8,9 +8,9 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-10-09 |
+| LastScraped | 2026-10-10 |
 
-## Jobs (7)
+## Jobs (8)
 
 ### Automatist de Proces
 
@@ -21,6 +21,12 @@
 ### Specialist Reglementari
 
 - **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/2p8tjpxVCo](https://electrogrup.applytojob.com/apply/jobs/details/2p8tjpxVCo)
+- **Location**: Bucuresti
+- **Status**: scraped
+
+### Business Development Director
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/AXH3gXeVz8](https://electrogrup.applytojob.com/apply/jobs/details/AXH3gXeVz8)
 - **Location**: Bucuresti
 - **Status**: scraped
 
@@ -55,4 +61,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-10-09T12:08:22Z_
+_Generated at 2026-10-10T11:25:43Z_
