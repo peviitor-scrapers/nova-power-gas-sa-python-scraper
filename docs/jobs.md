@@ -8,9 +8,9 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-10-22 |
+| LastScraped | 2026-10-23 |
 
-## Jobs (8)
+## Jobs (9)
 
 ### Automatist de Proces
 
@@ -42,6 +42,12 @@
 - **Location**: Cluj-Napoca
 - **Status**: scraped
 
+### International Trading Expert
+
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/AoTlvo8iTX](https://electrogrup.applytojob.com/apply/jobs/details/AoTlvo8iTX)
+- **Location**: Bucuresti
+- **Status**: scraped
+
 ### Key Account Manager | NOVA Power & Gas
 
 - **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/NAzCASxsgF](https://electrogrup.applytojob.com/apply/jobs/details/NAzCASxsgF)
@@ -61,4 +67,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-10-22T10:42:34Z_
+_Generated at 2026-10-23T10:34:43Z_
