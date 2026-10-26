@@ -8,7 +8,7 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-10-25 |
+| LastScraped | 2026-10-26 |
 
 ## Jobs (9)
 
@@ -42,7 +42,7 @@
 - **Location**: Cluj-Napoca
 - **Status**: scraped
 
-### International Trading Expert
+### International Energy Trading Expert
 
 - **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/AoTlvo8iTX](https://electrogrup.applytojob.com/apply/jobs/details/AoTlvo8iTX)
 - **Location**: Bucuresti
@@ -67,4 +67,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-10-25T10:12:42Z_
+_Generated at 2026-10-26T11:36:15Z_
