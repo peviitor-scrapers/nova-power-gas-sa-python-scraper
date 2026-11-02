@@ -8,7 +8,7 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-11-01 |
+| LastScraped | 2026-11-02 |
 
 ## Jobs (8)
 
@@ -61,4 +61,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-11-01T12:05:50Z_
+_Generated at 2026-11-02T13:54:44Z_
