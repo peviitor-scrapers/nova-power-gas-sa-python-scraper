@@ -8,7 +8,7 @@
 | Brand | NOVA POWER & GAS |
 | Website | http://novapg.ro/ |
 | Career | https://vreaulanova.ro/posturi-disponibile |
-| LastScraped | 2026-11-23 |
+| LastScraped | 2026-11-24 |
 
 ## Jobs (9)
 
@@ -20,7 +20,7 @@
 
 ### Specialist Reglementari
 
-- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/2p8tjpxVCo](https://electrogrup.applytojob.com/apply/jobs/details/2p8tjpxVCo)
+- **URL**: [https://electrogrup.applytojob.com/apply/jobs/details/wOGT1efUC4](https://electrogrup.applytojob.com/apply/jobs/details/wOGT1efUC4)
 - **Location**: Bucuresti
 - **Status**: scraped
 
@@ -67,4 +67,4 @@
 - **Status**: scraped
 
 ---
-_Generated at 2026-11-23T16:34:11Z_
+_Generated at 2026-11-24T16:32:04Z_
